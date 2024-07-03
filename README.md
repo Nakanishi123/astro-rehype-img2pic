@@ -1,0 +1,1 @@
+# astro-rehype-img2pic
