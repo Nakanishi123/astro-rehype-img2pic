@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "NodeNext",
+        "module": "NodeNext",
+        "esModuleInterop": true,
+        "allowJs": true,
+        "noEmit": true,
+        "skipLibCheck": true,
+        "strict": true,
+        "downlevelIteration": true
+    }
+}
