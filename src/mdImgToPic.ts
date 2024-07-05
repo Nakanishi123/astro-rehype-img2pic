@@ -20,12 +20,12 @@ export const configureMdImgToPicPlugin = (
       new Promise<void>(async (resolve) => {
         // キャッシュディレクトリの作成
         try {
-          await fs.promises.mkdir(cacheDir);
+          await fs.promises.mkdir(cacheDir, { recursive: true });
         } catch (e) {}
 
         // 出力ディレクトリの作成
         try {
-          await fs.promises.mkdir(outDir);
+          await fs.promises.mkdir(outDir, { recursive: true });
         } catch (e) {}
 
         // 処理するノードを取得
