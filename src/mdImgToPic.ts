@@ -41,6 +41,9 @@ export const configureMdImgToPicPlugin = (
           // パブリックフォルダの画像はスキップ
           if (node.properties.src[0] === "/") return;
 
+          // ローカルじゃない画像はスキップ
+          if (!node.properties.src.startsWith("http")) return;
+
           nodeToParse.push({ node, index, parent });
         });
 
