@@ -1,7 +1,7 @@
 {
   "name": "astro-rehype-img2pic",
   "version": "0.1.4",
-  "description": "Astro Integraton that automatically optimizes images referenced in markdown files.",
+  "description": "Astro Integraton that automatically optimizes local images referenced in markdown files.",
   "author": "M.Nakanishi",
   "license": "BSD-3-Clause",
   "type": "module",
