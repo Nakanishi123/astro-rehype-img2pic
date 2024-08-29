@@ -5,7 +5,9 @@
   "author": "M.Nakanishi",
   "license": "BSD-3-Clause",
   "type": "module",
-  "keywords": ["astro-integration"],
+  "keywords": [
+    "astro-integration"
+  ],
   "main": "src/index.ts",
   "types": "src/index.ts",
   "files": [
